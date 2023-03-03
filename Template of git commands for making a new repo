@@ -1,0 +1,152 @@
+nandeshboyz@Nandeshboyz MINGW64 ~/AndroidStudioProjects/QuizApp
+$ git init
+Initialized empty Git repository in C:/Users/pinke/AndroidStudioProjects/QuizApp/.git/
+
+nandeshboyz@Nandeshboyz MINGW64 ~/AndroidStudioProjects/QuizApp (master)
+$ git branch -m main
+
+nandeshboyz@Nandeshboyz MINGW64 ~/AndroidStudioProjects/QuizApp (main)
+$ git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitignore
+        .idea/
+        app/
+        build.gradle
+        gradle.properties
+        gradle/
+        gradlew
+        gradlew.bat
+        settings.gradle
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+nandeshboyz@Nandeshboyz MINGW64 ~/AndroidStudioProjects/QuizApp (main)
+$ git add .
+warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app/build.gradle', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app/proguard-rules.pro', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app/src/androidTest/java/com/example/quizapp/ExampleInstrumentedTest.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app/src/main/java/com/example/quizapp/MainActivity.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app/src/main/java/com/example/quizapp/aboutActivity.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app/src/main/java/com/example/quizapp/endQuiz.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app/src/main/java/com/example/quizapp/question1.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app/src/main/java/com/example/quizapp/question2.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app/src/main/java/com/example/quizapp/question3.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app/src/main/java/com/example/quizapp/question4.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app/src/main/java/com/example/quizapp/question5.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app/src/main/res/drawable-v24/ic_launcher_foreground.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app/src/main/res/drawable/ic_launcher_background.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app/src/main/res/layout/activity_about.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app/src/main/res/layout/activity_end_quiz.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app/src/main/res/layout/activity_main.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app/src/main/res/layout/activity_question1.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app/src/main/res/layout/activity_question2.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app/src/main/res/layout/activity_question3.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app/src/main/res/layout/activity_question4.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app/src/main/res/layout/activity_question5.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app/src/main/res/values-night/themes.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app/src/main/res/values/colors.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app/src/main/res/values/strings.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app/src/main/res/values/themes.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app/src/main/res/xml/backup_rules.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app/src/main/res/xml/data_extraction_rules.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'app/src/test/java/com/example/quizapp/ExampleUnitTest.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'build.gradle', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'gradle.properties', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'gradlew', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'settings.gradle', LF will be replaced by CRLF the next time Git touches it
+
+nandeshboyz@Nandeshboyz MINGW64 ~/AndroidStudioProjects/QuizApp (main)
+$ git add .
+
+nandeshboyz@Nandeshboyz MINGW64 ~/AndroidStudioProjects/QuizApp (main)
+$ git commit -m "done"
+[main (root-commit) 11308cb] done
+ 62 files changed, 2055 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 .idea/.gitignore
+ create mode 100644 .idea/compiler.xml
+ create mode 100644 .idea/gradle.xml
+ create mode 100644 .idea/misc.xml
+ create mode 100644 .idea/render.experimental.xml
+ create mode 100644 app/.gitignore
+ create mode 100644 app/build.gradle
+ create mode 100644 app/proguard-rules.pro
+ create mode 100644 app/src/androidTest/java/com/example/quizapp/ExampleInstrumentedTest.java
+ create mode 100644 app/src/debug/S_alphabet-playstore.png
+ create mode 100644 app/src/debug/V_alphabet-playstore.png
+ create mode 100644 app/src/debug/res/drawable/background.png
+ create mode 100644 app/src/debug/res/drawable/bg.png
+ create mode 100644 app/src/debug/res/drawable/quizzz.png
+ create mode 100644 app/src/main/AndroidManifest.xml
+ create mode 100644 app/src/main/java/com/example/quizapp/MainActivity.java
+ create mode 100644 app/src/main/java/com/example/quizapp/aboutActivity.java
+ create mode 100644 app/src/main/java/com/example/quizapp/endQuiz.java
+ create mode 100644 app/src/main/java/com/example/quizapp/question1.java
+ create mode 100644 app/src/main/java/com/example/quizapp/question2.java
+ create mode 100644 app/src/main/java/com/example/quizapp/question3.java
+ create mode 100644 app/src/main/java/com/example/quizapp/question4.java
+ create mode 100644 app/src/main/java/com/example/quizapp/question5.java
+ create mode 100644 app/src/main/res/drawable-v24/ic_launcher_foreground.xml
+ create mode 100644 app/src/main/res/drawable/ic_launcher_background.xml
+ create mode 100644 app/src/main/res/drawable/s_alphabet.png
+ create mode 100644 app/src/main/res/drawable/v_alphabet.png
+ create mode 100644 app/src/main/res/layout/activity_about.xml
+ create mode 100644 app/src/main/res/layout/activity_end_quiz.xml
+ create mode 100644 app/src/main/res/layout/activity_main.xml
+ create mode 100644 app/src/main/res/layout/activity_question1.xml
+ create mode 100644 app/src/main/res/layout/activity_question2.xml
+ create mode 100644 app/src/main/res/layout/activity_question3.xml
+ create mode 100644 app/src/main/res/layout/activity_question4.xml
+ create mode 100644 app/src/main/res/layout/activity_question5.xml
+ create mode 100644 app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml
+ create mode 100644 app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml
+ create mode 100644 app/src/main/res/mipmap-hdpi/ic_launcher.webp
+ create mode 100644 app/src/main/res/mipmap-hdpi/ic_launcher_round.webp
+ create mode 100644 app/src/main/res/mipmap-mdpi/ic_launcher.webp
+ create mode 100644 app/src/main/res/mipmap-mdpi/ic_launcher_round.webp
+ create mode 100644 app/src/main/res/mipmap-xhdpi/ic_launcher.webp
+ create mode 100644 app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp
+ create mode 100644 app/src/main/res/mipmap-xxhdpi/ic_launcher.webp
+ create mode 100644 app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp
+ create mode 100644 app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp
+ create mode 100644 app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp
+ create mode 100644 app/src/main/res/values-night/themes.xml
+ create mode 100644 app/src/main/res/values/colors.xml
+ create mode 100644 app/src/main/res/values/strings.xml
+ create mode 100644 app/src/main/res/values/themes.xml
+ create mode 100644 app/src/main/res/xml/backup_rules.xml
+ create mode 100644 app/src/main/res/xml/data_extraction_rules.xml
+ create mode 100644 app/src/test/java/com/example/quizapp/ExampleUnitTest.java
+ create mode 100644 build.gradle
+ create mode 100644 gradle.properties
+ create mode 100644 gradle/wrapper/gradle-wrapper.jar
+ create mode 100644 gradle/wrapper/gradle-wrapper.properties
+ create mode 100644 gradlew
+ create mode 100644 gradlew.bat
+ create mode 100644 settings.gradle
+
+nandeshboyz@Nandeshboyz MINGW64 ~/AndroidStudioProjects/QuizApp (main)
+$ git remote add origin https://github.com/nandeshboyz024/QuizApp.git           
+nandeshboyz@Nandeshboyz MINGW64 ~/AndroidStudioProjects/QuizApp (main)
+$ git push -u origin main
+Enumerating objects: 98, done.
+Counting objects: 100% (98/98), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (81/81), done.
+Writing objects: 100% (98/98), 617.49 KiB | 12.35 MiB/s, done.
+Total 98 (delta 10), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (10/10), done.
+To https://github.com/nandeshboyz024/QuizApp.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+nandeshboyz@Nandeshboyz MINGW64 ~/AndroidStudioProjects/QuizApp (main)
+$
